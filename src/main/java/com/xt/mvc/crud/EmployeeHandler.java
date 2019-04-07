@@ -32,7 +32,7 @@ public class EmployeeHandler {
     }
 
     @PutMapping("/emp")
-    public String update(@ModelAttribute("emp") Employee employee) {
+    public String update(@ModelAttribute("employee") Employee employee) {
         employeeDao.save(employee);
         return "redirect:/emps";
     }
@@ -53,7 +53,7 @@ public class EmployeeHandler {
 
     @PostMapping("/emp")
     public String save(@Valid Employee employee, BindingResult result, Map<String, Object> map) {
-        if (result.hasErrors()) {
+        if (result.getErrorCount() > 0) {
             for (FieldError error: result.getFieldErrors()) {
                 System.out.println(error.getField() + " : " + error.getDefaultMessage());
             }

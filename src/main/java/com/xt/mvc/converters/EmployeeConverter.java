@@ -20,12 +20,12 @@ public class EmployeeConverter implements Converter<String, Employee> {
             if (arrs!=null && arrs.length == 4) {
                 String lastName = arrs[0];
                 String email = arrs[1];
-                Integer gerder = Integer.parseInt(arrs[2]);
+                Integer gender = Integer.parseInt(arrs[2]);
                 Integer deptId = Integer.parseInt(arrs[3]);
 
                 Department department = new Department();
                 department.setId(deptId);
-                Employee employee = new Employee(null, lastName, email, gerder, department);
+                Employee employee = new Employee(null, lastName, email, gender, department);
                 System.out.println(s + "--convert--" + employee);
                 return employee;
             }

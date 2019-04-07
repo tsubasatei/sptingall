@@ -15,6 +15,7 @@
 </head>
 <body>
 
+    <%-- String --> Employee 类型转换 --%>
     <form action="springmvc/testConversionEmployeeConverter" method="post">
         Employee:<input type="text" name="employee">
         <input type="submit" value="submit">
