@@ -7,9 +7,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 /**
- * @author xt
- * @create 2019/4/5 7:33
- * @Desc
+ * 自定义转换器
  */
 @Component
 public class EmployeeConverter implements Converter<String, Employee> {

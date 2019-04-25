@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @ControllerAdvice
 public class SpringMVCTestExceptionHandler {
-     @ExceptionHandler({ArithmeticException.class})
+    @ExceptionHandler({ArithmeticException.class})
     public ModelAndView handleArithmeticException(Exception ex) {
         System.out.println("出错了：" + ex);
         ModelAndView mv = new ModelAndView("error");

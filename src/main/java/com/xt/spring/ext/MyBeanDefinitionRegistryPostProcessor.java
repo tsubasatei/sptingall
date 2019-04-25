@@ -1,6 +1,5 @@
 package com.xt.spring.ext;
 
-import com.xt.spring.bean.Blue;
 import com.xt.spring.bean.Car;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;

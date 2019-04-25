@@ -1,10 +1,6 @@
 package com.xt.spring;
 
-import com.xt.spring.bean.Blue;
-import com.xt.spring.bean.Car;
-import com.xt.spring.config.MainConfigOfTx;
 import com.xt.spring.ext.ExtConfig;
-import com.xt.spring.tx.UserService;
 import org.junit.Test;
 import org.springframework.context.ApplicationEvent;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

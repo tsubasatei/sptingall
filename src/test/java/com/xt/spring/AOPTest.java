@@ -20,7 +20,6 @@ public class AOPTest {
         MathCalculator mathCalculator = applicationContext.getBean(MathCalculator.class);
         mathCalculator.div(1, 0);
 
-
     }
 
 }

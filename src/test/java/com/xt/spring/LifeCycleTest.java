@@ -1,8 +1,5 @@
 package com.xt.spring;
 
-import com.xt.spring.bean.Car;
-import com.xt.spring.bean.Cat;
-import com.xt.spring.bean.Dog;
 import com.xt.spring.config.MainConfigOfLifeCycle;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

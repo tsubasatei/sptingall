@@ -1,12 +1,6 @@
 package com.xt.spring;
 
-import com.xt.spring.bean.Boss;
-import com.xt.spring.bean.Car;
-import com.xt.spring.bean.Color;
-import com.xt.spring.config.MainConfigOfAutowired;
 import com.xt.spring.config.MainConfigOfTx;
-import com.xt.spring.dao.PersonDao;
-import com.xt.spring.service.PersonService;
 import com.xt.spring.tx.UserService;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
